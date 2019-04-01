@@ -9,15 +9,21 @@ const App = () => {
 	
 	const [search, setSearch] = useState(false)
 
-
+	const Input = styled.input`
+		margin: auto;	
+	`
 	
 	const Wrapper = styled.div`
-		max-width: 100vw;	
+		max-width: 100vw;
+		input{
+			
+			padding: 5px;
+		}	
 	`
 	
 	const fetch = () => {
 
-		axios.get(`http://www.omdbapi.com/?apikey=${key}&t=titanic`)
+		axios.get(`http://www.omdbapi.com/?apikey=${key}&s=titanic`)
 		.then(resp => console.log(resp.data))
 		.catch(err => console.log(err))
 		
@@ -40,7 +46,8 @@ const App = () => {
 
 	return (
 		<Wrapper>
-		<button onClick={fetch}>click me</button>
+			<Input placeholder="Search a movie"/>
+		{/* <button onClick={fetch}>click me</button> */}
 			<Main />
 		</Wrapper>
 	);
