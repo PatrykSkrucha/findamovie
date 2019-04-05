@@ -10,7 +10,7 @@ img api.txt
 
 # production
 /build
-
+img api.txt
 # misc
 .DS_Store
 .env.local

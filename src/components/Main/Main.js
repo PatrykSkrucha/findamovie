@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const main = () => {
+const main = (props) => {
 
 	const Wrapper = styled.div`
 		// border: 1px solid black;
@@ -56,13 +56,13 @@ const main = () => {
 			margin: 0;	
 			
 		}
-		
-		
 	`
+	
+
 	return (
 		<Wrapper>
 			<SectionInfo>
-				<h1>Title</h1>
+				<h1>{Title}</h1>
 				<br />
 				<p>Laborum cillum nulla tempor quis et sint ex consequat dolor eu aliqua.</p>
 				<br />
