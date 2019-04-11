@@ -58,11 +58,14 @@ const main = (props) => {
 		}
 	`
 	
+	const { title, tagline, overview, genres, vote_average } = props
+	
+	
 
 	return (
 		<Wrapper>
 			<SectionInfo>
-				<h1>{Title}</h1>
+				<h1>'Title'</h1>
 				<br />
 				<p>Laborum cillum nulla tempor quis et sint ex consequat dolor eu aliqua.</p>
 				<br />

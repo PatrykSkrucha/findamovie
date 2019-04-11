@@ -10,6 +10,7 @@ img api.txt
 
 # production
 /build
+key.js
 img api.txt
 # misc
 .DS_Store
