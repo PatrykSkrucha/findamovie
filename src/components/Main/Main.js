@@ -65,6 +65,9 @@ const main = (props) => {
 	const Plot = plot ? plot : "Nostrud ipsum sunt voluptate officia incididunt minim culpa consectetur. Esse cupidatat minim eu aliqua laboris fugiat sint magna aliqua officia ipsum irure ex fugiat. Exercitation amet do veniam eiusmod labore veniam nisi do sit. Esse nisi id consequat sit dolore velit in cillum deserunt laborum ullamco velit. Adipisicing proident ullamco mollit proident commodo. Aliqua et velit in esse amet est amet excepteur."
 	const Img =  img ? img : "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYzOTE1OTU5Ml5BMl5BanBnXkFtZTcwNTgzMjUyMQ@@._V1_SX300.jpg"
 	
+	const { title, tagline, overview, genres, vote_average } = props
+	
+	
 
 	return (
 		<Wrapper>
